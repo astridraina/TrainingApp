@@ -1,0 +1,5 @@
+B:\Learning\WiproInterview\TrainingApp\TrainingAppDb\bin\Debug\TrainingAppDb.dacpac
+B:\Learning\WiproInterview\TrainingApp\TrainingAppDb\bin\Debug\TrainingAppDb.dll
+B:\Learning\WiproInterview\TrainingApp\TrainingAppDb\bin\Debug\TrainingAppDb.pdb
+B:\Learning\WiproInterview\TrainingApp\TrainingAppDb\obj\Debug\TrainingAppDb.dll
+B:\Learning\WiproInterview\TrainingApp\TrainingAppDb\obj\Debug\TrainingAppDb.pdb

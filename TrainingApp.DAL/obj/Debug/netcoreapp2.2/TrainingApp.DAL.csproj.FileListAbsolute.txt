@@ -1,0 +1,12 @@
+B:\Learning\WiproInterview\TrainingApp\TrainingApp.DAL\bin\Debug\netcoreapp2.2\TrainingApp.DAL.deps.json
+B:\Learning\WiproInterview\TrainingApp\TrainingApp.DAL\bin\Debug\netcoreapp2.2\TrainingApp.DAL.dll
+B:\Learning\WiproInterview\TrainingApp\TrainingApp.DAL\bin\Debug\netcoreapp2.2\TrainingApp.DAL.pdb
+B:\Learning\WiproInterview\TrainingApp\TrainingApp.DAL\bin\Debug\netcoreapp2.2\TrainingApp.EF.dll
+B:\Learning\WiproInterview\TrainingApp\TrainingApp.DAL\bin\Debug\netcoreapp2.2\TrainingApp.EF.pdb
+B:\Learning\WiproInterview\TrainingApp\TrainingApp.DAL\obj\Debug\netcoreapp2.2\TrainingApp.DAL.csprojAssemblyReference.cache
+B:\Learning\WiproInterview\TrainingApp\TrainingApp.DAL\obj\Debug\netcoreapp2.2\TrainingApp.DAL.csproj.CoreCompileInputs.cache
+B:\Learning\WiproInterview\TrainingApp\TrainingApp.DAL\obj\Debug\netcoreapp2.2\TrainingApp.DAL.AssemblyInfoInputs.cache
+B:\Learning\WiproInterview\TrainingApp\TrainingApp.DAL\obj\Debug\netcoreapp2.2\TrainingApp.DAL.AssemblyInfo.cs
+B:\Learning\WiproInterview\TrainingApp\TrainingApp.DAL\obj\Debug\netcoreapp2.2\TrainingApp.DAL.csproj.CopyComplete
+B:\Learning\WiproInterview\TrainingApp\TrainingApp.DAL\obj\Debug\netcoreapp2.2\TrainingApp.DAL.dll
+B:\Learning\WiproInterview\TrainingApp\TrainingApp.DAL\obj\Debug\netcoreapp2.2\TrainingApp.DAL.pdb

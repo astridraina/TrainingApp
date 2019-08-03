@@ -1,0 +1,52 @@
+<div class="container">
+  <div>
+  <h1>Training Details </h1>
+  <div class="alert alert-success" role="alert" *ngIf="message.length > 0 && validationFailedMessage.length == 0" [innerHTML]="message" >
+  </div>
+
+  <div class="alert alert-success" role="alert" *ngIf="message.length > 0 && validationFailedMessage.length > 0" [innerHTML]="message" >
+    </div>
+  <div class="alert alert-danger" role="alert" *ngIf="validationFailedMessage.length > 0" [innerHTML]="validationFailedMessage" >
+  </div>
+  <form  name="form" (ngSubmit)="frmTrainingDetails.form.valid && trainingName.valid && startDate.valid && endDate.valid && SaveTrainingDetails()"  #frmTrainingDetails="ngForm">
+    <div class="form-group">
+      <label for="TrainingName">Training Name
+      </label> 
+      <input type="text" class="form-control" id="TrainingName"  name="TrainingName" #trainingName="ngModel" 
+      required [(ngModel)]="trainingDetails.TrainingName" placeholder="Training Name" [ngModelOptions]="{standalone: true}"
+      [ngClass]="{ 'is-invalid': frmTrainingDetails.submitted && trainingName.invalid }">
+      <div *ngIf="trainingName.invalid && (trainingName.dirty || trainingName.touched || frmTrainingDetails.submitted)" class="alert alert-danger">
+        <div *ngIf="trainingName.errors.required">
+            Training Name is required
+        </div>
+      </div>      
+    </div>
+    <div class="form-group">
+      <label for="StartDate">Start Date</label>
+      <input type="date" class="form-control" id="StartDate"  name="StartDate" #startDate="ngModel"  
+      required  [ngModel]="trainingDetails.StartDate | date: 'yyyy-MM-dd'" 
+      (ngModelChange)="trainingDetails.StartDate=$event" placeholder="Start Date"
+       [ngModelOptions]="{standalone: true}" >
+      <div *ngIf="startDate.invalid && (startDate.dirty || startDate.touched || frmTrainingDetails.submitted)" class="alert alert-danger">
+          <div *ngIf="startDate.errors.required">
+              Start Date is required
+          </div>
+        </div>
+    </div>
+
+    
+    <div class="form-group">
+      <label for="EndDate">End Date </label>
+      <input type="date" class="form-control" id="EndDate"  name="EndDate" #endDate="ngModel"  
+      required [ngModel]="trainingDetails.EndDate | date: 'yyyy-MM-dd'" (ngModelChange)="trainingDetails.EndDate=$event" 
+      placeholder="End Date" [ngModelOptions]="{standalone: true}" >
+       <div *ngIf="endDate.invalid && (endDate.dirty || endDate.touched || frmTrainingDetails.submitted)" class="alert alert-danger">
+          <div *ngIf="endDate.errors.required">
+              End Date is required
+          </div>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success">Confirm</button>
+
+  </form> 
+</div>

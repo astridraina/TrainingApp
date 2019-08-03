@@ -1,0 +1,9 @@
+B:\Learning\WiproInterview\TrainingApp\Utilities\bin\Debug\netcoreapp2.2\Utilities.deps.json
+B:\Learning\WiproInterview\TrainingApp\Utilities\bin\Debug\netcoreapp2.2\Utilities.dll
+B:\Learning\WiproInterview\TrainingApp\Utilities\bin\Debug\netcoreapp2.2\Utilities.pdb
+B:\Learning\WiproInterview\TrainingApp\Utilities\obj\Debug\netcoreapp2.2\Utilities.csproj.CoreCompileInputs.cache
+B:\Learning\WiproInterview\TrainingApp\Utilities\obj\Debug\netcoreapp2.2\Utilities.AssemblyInfoInputs.cache
+B:\Learning\WiproInterview\TrainingApp\Utilities\obj\Debug\netcoreapp2.2\Utilities.AssemblyInfo.cs
+B:\Learning\WiproInterview\TrainingApp\Utilities\obj\Debug\netcoreapp2.2\Utilities.dll
+B:\Learning\WiproInterview\TrainingApp\Utilities\obj\Debug\netcoreapp2.2\Utilities.pdb
+B:\Learning\WiproInterview\TrainingApp\Utilities\obj\Debug\netcoreapp2.2\Utilities.csprojAssemblyReference.cache
